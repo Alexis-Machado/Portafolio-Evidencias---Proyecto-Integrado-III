@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Evidencias 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <style>
+        /* CSS personalizado para animación */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .slide-in {
+            animation: slideIn 1s ease-out;
+        }
+
+        /* Efectos hover personalizados */
+        .hover-transform:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-transform:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.5);
+        }
+    </style>
+</head>
+
+</body>
+
+<body class="bg-gradient-to-r from-indigo-50 via-sky-100 to-teal-100 min-h-screen flex flex-col">
+
+    <!-- Sección de Encabezado -->
+    <header class="bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 text-white py-6 px-4 relative">
+        <div class="absolute inset-0 bg-gradient-to-r from-white opacity-10"></div>
+
+        <!-- Logo en la esquina superior izquierda -->
+        <img title="INSTITUCIÓN UNIVERSITARIA DIGITAL DE ANTIOQUIA ❤️🖤💙"
+            src="https://th.bing.com/th/id/R.76e1e37100b73602df45713eb2045d40?rik=rdFS7DZ3lP9Bcg&pid=ImgRaw&r=0"
+            alt="logo"
+            class="absolute top-10 left-10 w-12 sm:w-16 md:w-60 lg:w-60 transform transition duration-300 ease-in-out hover:scale-110" />
+
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-3xl font-semibold mb-6 fade-in"><strong>Proyecto Integrado III - Analítica de Datos</strong>
+            </h1>
+            <div class="text-3xl mb-6 slide-in"><strong>Portafolio de Evidencias y Avances</strong></div>
+        </div>
+    </header>
+
+    <!-- Sección principal -->
+    <main class="flex-1 py-8 px-6 md:px-12 bg-white shadow-lg rounded-t-3xl relative z-10">
+        <div class="container mx-auto">
+
+            <!-- Sección Portada -->
+            <h2 class="text-2xl font-semibold text-blue-600 mb-6 text-center"><strong>PORTADA</strong></h2>
+            <section class="flex justify-between bg-white rounded-lg shadow-lg p-8 mb-10">
+                <div class="w-1/2">
+                    <ul class="space-y-6">
+                        <li class="flex items-center text-lg">
+                            <span class="mr-2 text-3xl">👨‍💻</span> Jhon Alexis Machado Rodríguez
+                        </li>
+                        <li class="flex items-center text-lg">
+                            <span class="mr-2 text-3xl">👨‍💻</span> Julián José Martínez Camacho
+                        </li>
+                        <li class="flex items-center text-lg">
+                            <span class="mr-2 text-3xl">👨‍💻</span> Quenia Andrea Vanegas Rojas
+                        </li>
+                        <li class="lex items-center text-lg">
+                            <span class="mr-2 text-3xl">👩‍🏫</span>
+                            <span><strong>Docente:</strong> Ana Maria Lopez Moreno</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sección de información (alineada a la derecha) -->
+                <div class="w-1/2 text-right">
+                    <h2 class="text-2xl font-semibold text-blue-600 mb-6"></h2>
+                    <ul class="space-y-6">
+                        <li class="text-lg mb-8 slide-in">Ingeniería de Software y Datos</li>
+                        <div class="text-lg mb-6 slide-in">Institución Universitaria Digital de Antioquia</div>
+                        <div class="text-lg mb-6 slide-in">Semestre 8°</div>
+                        <div class="text-lg mb-4 slide-in">PREICA2402B020107</div>
+                        <div class="text-lg mb-6 slide-in">Diciembre del 2024</div>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sección de botones Evidencias -->
+            <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="EVIDENCIAS/EA1.html"
+                    class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-600 text-white py-5 px-4 rounded-lg text-center font-medium text-lg hover-transform transition-all duration-300 shadow-lg hover:bg-gradient-to-l">
+                    <i class="fas fa-file-alt text-4xl mb-2"></i>
+                    <p>EVIDENCIA Y AVANCE 1</p>
+                </a>
+                <a href="EVIDENCIAS/EA2.html"
+                    class="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600 text-white py-5 px-4 rounded-lg text-center font-medium text-lg hover-transform transition-all duration-300 shadow-lg hover:bg-gradient-to-l">
+                    <i class="fas fa-tasks text-4xl mb-2"></i>
+                    <p>EVIDENCIA Y AVANCE 2</p>
+                </a>
+                <a href="EVIDENCIAS/EA3.html"
+                    class="bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-600 text-white py-5 px-4 rounded-lg text-center font-medium text-lg hover-transform transition-all duration-300 shadow-lg hover:bg-gradient-to-l">
+                    <i class="fas fa-chart-line text-4xl mb-2"></i>
+                    <p>EVIDENCIA Y AVANCE 3</p>
+                </a>
+                <a href="EVIDENCIAS/EA4.html"
+                    class="bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 text-white py-5 px-4 rounded-lg text-center font-medium text-lg hover-transform transition-all duration-300 shadow-lg hover:bg-gradient-to-l">
+                    <i class="fas fa-flag-checkered text-4xl mb-2"></i>
+                    <p>EVIDENCIA FINAL</p>
+                </a>
+            </section>
+            <!-- Planeación Trello -->
+            <div class="flex justify-center items-center mt-6">
+                <a href="https://trello.com/invite/b/671e84fd45ee793d0a3b95b6/ATTI8d08e49346a1ff7b037a663b06cc92bcFCD0A161/proyecto-integrador-iii-analisis-de-datos-delitos-informaticos"
+                    class="bg-gradient-to-r from-black via-gray-900 to-blue-700 text-white py-4 px-6 rounded-lg text-center font-medium text-lg hover-transform transition-all duration-300 shadow-lg hover:shadow-blue-500/50 w-2/3 sm:w-1/3 lg:w-1/4">
+                    <i class="fas fa-calendar-check text-4xl mb-3"></i>
+                    <p>Planeación Trello</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de pie de página -->
+    <footer class="bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 text-white py-6 text-center mt-10">
+        <p><strong>Portafolio de Evidencias Proyecto Integrado III - Análitica de Datos</strong></p>
+    </footer>
+
+    <script>
+        // Añadir una animación para el botón hover
+        const buttons = document.querySelectorAll('.hover-transform');
+        buttons.forEach(button => {
+            button.addEventListener('mouseenter', () => {
+                button.classList.add('transform', 'scale-105');
+            });
+            button.addEventListener('mouseleave', () => {
+                button.classList.remove('transform', 'scale-105');
+            });
+        });
+    </script>
+</body>
+
+</html>

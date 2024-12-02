@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencia y Avance 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #2c7a7b;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+
+        .construction-section {
+            background-color: #fce4d6;
+            padding: 20px;
+            border-radius: 12px;
+            width: 80%;
+            margin: 20px 0;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .construction-section i {
+            font-size: 50px;
+            color: #f97316;
+        }
+
+        .construction-section h2 {
+            font-size: 1.8rem;
+            color: #f97316;
+            margin-top: 10px;
+        }
+
+        .construction-section p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .back-button {
+            position: fixed;
+            bottom: 15px;
+            left: 15px;
+            background: linear-gradient(135deg, #f97316, #ea580c);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #c2410c, #9a3412);
+            transform: scale(1.05);
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-button i {
+            margin-right: 8px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="back-button" onclick="goToPage('/HOME.html')">
+        <i class="fas fa-arrow-left"></i>
+        Regresar
+    </button>
+    <h1>ENTREGA FINAL - PROYECTO INTEGRADO III DELITOS INFORMÁTICOS</h1>
+
+    <!-- Sección En Construcción -->
+    <div class="construction-section">
+        <i class="fas fa-cogs"></i>
+        <h2>Sección en Construcción</h2>
+        <p>¡Estamos trabajando en esta sección! Pronto estará disponible.</p>
+    </div>
+
+    <!-- Sección En Construcción -->
+    <div class="construction-section">
+        <i class="fas fa-cogs"></i>
+        <h2>Evidencia en Construcción</h2>
+        <p>Este área está en desarrollo. Mantente atento para más actualizaciones.</p>
+    </div>
+
+    <div class="construction-section">
+        <i class="fas fa-cogs"></i>
+        <h2>Conclusiones en Construcción</h2>
+        <p>Estamos agregando contenido y mejoras. Vuelve pronto.</p>
+    </div>
+
+    <script>
+        function goToPage(page) {
+            // Redirige a la página especificada
+            window.location.href = page;
+        }
+    </script>
+</body>
+
+</html>
